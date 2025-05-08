@@ -1,0 +1,26 @@
+{
+  "name": "robuseum",
+  "version": "1.0.0",
+  "description": "view vintage robots",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && serve dist",
+    "build": "webpack --config webpack.config.mjs"
+  },
+  "author": "ryuuzako",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.176.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "babel-loader": "^10.0.0",
+    "copy-webpack-plugin": "^13.0.0",
+    "html-webpack-plugin": "^5.0.0",
+    "serve": "^14.2.4",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.0.0"
+  }
+}
